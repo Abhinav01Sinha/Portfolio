@@ -10,7 +10,7 @@ import Footer from './Components/Footer/index.jsx'
 
 import { ThemeProvider } from "styled-components";
 import { useState, useEffect } from "react";
-import { darkTheme, lightTheme } from './utils/Themes.js'
+import { darkTheme } from './utils/Themes.jsx'
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import styled from "styled-components";
