@@ -1,12 +1,12 @@
 import './App.css'
 import Navbar from "./Components/Navbar"
-import MySkills from "./Components/Skills/index.jsX"
 import Education from "./Components/Education"
 import Contact from './Components/Contact/index.jsx'
 import Experience from './Components/Experience/index.jsx'
 import HeroSection from "./Components/HeroSection/index.jsx"
 import Projects from './Components/Projects/index.jsx'
 import Footer from './Components/Footer/index.jsx'
+import Skills from './Components/Skills/index.jsx'
 
 import { ThemeProvider } from "styled-components";
 import { useState, useEffect } from "react";
@@ -39,7 +39,7 @@ function App() {
           <Body>
             <HeroSection />
             <Wrapper>
-              <MySkills/>
+              <Skills/>
               <Experience/>
             </Wrapper>
 
