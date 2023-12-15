@@ -2,7 +2,7 @@ import React from 'react'
 import { skills } from '../../data/constants'
 import {Container , Wrapper , Title , Desc , SkillsContainer , Skill , SkillTitle , SkillList , SkillItem , SkillImage } from "./skillStyle" ;
 
-const MySkills = () => {
+const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
@@ -30,4 +30,4 @@ const MySkills = () => {
   )
 }
 
-export default MySkills ;
+export default Skills ;
