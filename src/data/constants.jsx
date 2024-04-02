@@ -1,5 +1,5 @@
 import YelpCamp from "../images/Yelpcamp.jpg";
-import Todo from "../images/ToDo.jpg";
+import Todo from "../images/Todo.jpg";
 import Dashboard from "../images/Dashboard.png";
 import GoFood from "../images/GoFood.png";
 import BorrowBucket from "../images/BorrowBucket.png";
