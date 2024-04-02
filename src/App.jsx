@@ -10,7 +10,7 @@ import Skills from "./Components/Skills/index.jsx";
 
 import { ThemeProvider } from "styled-components";
 import { useState, useEffect } from "react";
-import { darkTheme } from "./utils/Themes.jsx";
+import { darkTheme } from "./utils/themes.jsx";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import styled from "styled-components";
