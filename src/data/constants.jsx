@@ -3,6 +3,7 @@ import Todo from "../images/Todo.jpg";
 import Dashboard from "../images/Dashboard.png";
 import GoFood from "../images/GoFood.png";
 import BorrowBucket from "../images/BorrowBucket.png";
+import Contriver from "../images/Logo.png";
 
 export const Bio = {
   name: "Abhinav Sinha",
@@ -22,7 +23,7 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "React.js",
+        name: "React",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
@@ -38,6 +39,10 @@ export const skills = [
         name: "CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      },
+      {
+        name: "Tailwind",
+        image: "https://cdn-images.himalayas.app/9w3a704t88nxt617os94xdamvz15",
       },
       {
         name: "Shadcn",
@@ -60,12 +65,12 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Node Js",
+        name: "Node.js",
         image:
           "https://icon-library.com/images/node-js-icon/node-js-icon-8.jpg",
       },
       {
-        name: "Express Js",
+        name: "Express",
         image:
           "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png",
       },
@@ -162,6 +167,16 @@ export const experiences = [
     date: "Dec 2021 - July 2022",
     desc: "Worked as a Doubt solving educator for IIT-JEE Chemistry for 8 Months. \n Recorded video solutions of 1800+ doubts for students.",
     skills: ["Teaching", "Chemistry", "JEE / NEET"],
+    doc: "",
+  },
+  {
+    id: 1,
+    img: Contriver,
+    role: "Web Developer",
+    company: "Contriver Autonomous Systems Private Limited",
+    date: "Apr 2024",
+    desc: "Built and deployed website for the start-up from scratch in 2 weeks. \n Utilised NextJs 14, ReactJs, HTML, and JavaScript to code and styled using Tailwind CSS and Shadcn",
+    skills: ["Next.js", "React.js", "Javascript", "HTML", "Tailwind", "Shadcn"],
     doc: "",
   },
 ];
