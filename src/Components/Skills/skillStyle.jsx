@@ -39,7 +39,7 @@ export const Title = styled.div`
 export const Desc = styled.div`
   font-size: 18px;
   text-align: center;
-  max-width: 800px;
+  max-width: 600px;
   color: ${({ theme }) => theme.text_secondary};
   @media (max-width: 768px) {
     font-size: 16px;
@@ -47,18 +47,17 @@ export const Desc = styled.div`
 `;
 
 export const SkillsContainer = styled.div`
-  width: 75%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
-  margin-bottom: 30px;
   gap: 30px;
   justify-content: center;
 `;
 
 export const Skill = styled.div`
   width: 100%;
-  max-width: 1000px;
+  max-width: 500px;
   background: ${({ theme }) => theme.card};
   border: 0.1px solid #854ce6;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;

@@ -129,10 +129,15 @@ export const skills = [
         image:
           "https://banner2.cleanpng.com/20180806/fv/kisspng-python-scalable-vector-graphics-logo-javascript-cl-coderpete-game-development-5b6819307ca155.2506144815335488485105.jpg",
       },
+      {
+        name: "Java",
+        image:
+          "https://static-00.iconduck.com/assets.00/java-icon-256x256-k4ufhihr.png",
+      },
     ],
   },
   {
-    title: "Others",
+    title: "Other Tools",
     skills: [
       {
         name: "Git",
@@ -154,6 +159,21 @@ export const skills = [
         image:
           "https://www.hockeycomputindo.com/assets/img/blog/04/vercels.png",
       },
+      {
+        name: "Linux",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/d/dd/Linux_logo.jpg",
+      },
+      {
+        name: "Figma",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
+      },
+      {
+        name: "Docker",
+        image:
+          "https://www.pngfind.com/pngs/m/255-2553250_icon-docker-notext-color-docker-icon-png-transparent.png",
+      },
     ],
   },
 ];
@@ -161,12 +181,12 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://play-lh.googleusercontent.com/sfLqVeky-wikZqOIScnfUnl4yI5S_Bs478tmpib4TFI0I-SC4x8MlvROJI946ps9Eg",
-    role: "Subject Matter Expert",
-    company: "Unacademy",
-    date: "Dec 2021 - July 2022",
-    desc: "Worked as a Doubt solving educator for IIT-JEE Chemistry for 8 Months. \n Recorded video solutions of 1800+ doubts for students.",
-    skills: ["Teaching", "Chemistry", "JEE / NEET"],
+    img: "https://media.licdn.com/dms/image/C4E0BAQGODdsrFC7ewg/company-logo_200_200/0/1630645009296/mydatachannel_logo?e=2147483647&v=beta&t=gcE_8wsecDhbx9yOpAB6IclOYq7nfH-5L6GNfeH17d4",
+    role: "Web Development Intern",
+    company: "Datachannel",
+    date: "June 2024",
+    desc: "Engineered and optimized frontend of cutting-edge ETL product utilizing Next.js 14, TypeScript, and Tailwind. \n Implemented high-fidelity user interfaces based on Figma mockups, ensuring a seamless user experience.\nDeveloped and optimized API calls for robust integration of frontend functions with backend operations.",
+    skills: ["Next.js", "Typescript", "Tailwind", "Shadcn", "Linux", "Figma"],
     doc: "",
   },
   {
@@ -176,7 +196,17 @@ export const experiences = [
     company: "Contriver Autonomous Systems Private Limited",
     date: "Apr 2024",
     desc: "Built and deployed website for the start-up from scratch in 2 weeks. \n Utilised NextJs 14, ReactJs, HTML, and JavaScript to code and styled using Tailwind CSS and Shadcn",
-    skills: ["Next.js", "React.js", "Javascript", "HTML", "Tailwind", "Shadcn"],
+    skills: ["Next.js", "Javascript", "HTML", "Tailwind", "Shadcn"],
+    doc: "",
+  },
+  {
+    id: 2,
+    img: "https://play-lh.googleusercontent.com/sfLqVeky-wikZqOIScnfUnl4yI5S_Bs478tmpib4TFI0I-SC4x8MlvROJI946ps9Eg",
+    role: "Subject Matter Expert",
+    company: "Unacademy",
+    date: "Dec 2021 - July 2022",
+    desc: "Worked as a Doubt solving educator for IIT-JEE Chemistry for 8 Months. \n Recorded video solutions of 1800+ doubts for students.",
+    skills: ["Teaching", "Chemistry", "JEE / NEET"],
     doc: "",
   },
 ];
@@ -193,7 +223,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://childrenartcontest.com/wp-content/uploads/2018/07/Logo-Mayur-Public-School-1.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnr7fPtrxD02EJqEorIQt296JUoNoPXJe_Ow&s",
     school: "Mayur Public School , Delhi",
     date: "Apr 2019 - March 2021 ",
     grade: "96.6% in CBSE Class XII",
@@ -202,7 +232,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://childrenartcontest.com/wp-content/uploads/2018/07/Logo-Mayur-Public-School-1.jpg",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnr7fPtrxD02EJqEorIQt296JUoNoPXJe_Ow&s",
     school: "Mayur Public School , Delhi",
     date: "Apr 2007 - March 2019 ",
     grade: "92% in CBSE Class X ",
