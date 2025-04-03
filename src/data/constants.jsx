@@ -4,12 +4,13 @@ import Dashboard from "../images/Dashboard.png";
 import GoFood from "../images/GoFood.png";
 import BorrowBucket from "../images/BorrowBucket.png";
 import Contriver from "../images/Logo.png";
+import DatachannelCertificate from "../images/DatachannelCertificate.png";
 
 export const Bio = {
   name: "Abhinav Sinha",
-  roles: ["Full Stack Developer", "Programmer"],
+  roles: ["Full Stack Developer", "Problem Solver"],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Currently working at Udaan.com, Bangalore as a SDE Intern and pursuing B.Tech in Computer Engineering from DTU(formerly DCE).\n Passionate Full Stack developer with strong knowledge of DSA, OOPs, System Design, OS and DBMS.",
   github: "https://github.com/Abhinav01Sinha",
   resume:
     "https://drive.google.com/file/d/1AMIxRsovKNGqME1SGUNSotLIvM-SkUtH/view",
@@ -115,6 +116,11 @@ export const skills = [
           "https://w7.pngwing.com/pngs/46/626/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue.png",
       },
       {
+        name: "Kotlin",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
+      },
+      {
         name: "Javascript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
@@ -127,7 +133,7 @@ export const skills = [
       {
         name: "Python",
         image:
-          "https://banner2.cleanpng.com/20180806/fv/kisspng-python-scalable-vector-graphics-logo-javascript-cl-coderpete-game-development-5b6819307ca155.2506144815335488485105.jpg",
+          "https://banner2.cleanpng.com/20180505/fjw/kisspng-programming-language-python-github-inc-czech-repu-5aee3f21086b96.2186135215255631690345.jpg",
       },
       {
         name: "Java",
@@ -150,9 +156,19 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
+        name: "Postman",
+        image:
+          "https://www.applivery.com/wp-content/uploads/2024/09/Postman.png",
+      },
+      {
         name: "VS Code",
         image:
           "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
+      },
+      {
+        name: "IntelliJ",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxlIFSJ7h8ezStcSXpS3-IlufMeKjAb7--XQ&s",
       },
       {
         name: "Vercel",
@@ -181,16 +197,28 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8WLD7tG4pUUCxS_dw88KSIif7pQG60K-Ovw&s",
+    role: "Software Development Engineer Intern",
+    company: "Udaan.com",
+    date: "January 2025",
+    desc: "Spearheading the Full stack development of Udaan's credit console dashboards used by internal employees.",
+    skills: ["React", "Typescript", "Kotlin", "MySQL"],
+    doc: "",
+    docImg: "",
+  },
+  {
+    id: 1,
     img: "https://media.licdn.com/dms/image/C4E0BAQGODdsrFC7ewg/company-logo_200_200/0/1630645009296/mydatachannel_logo?e=2147483647&v=beta&t=gcE_8wsecDhbx9yOpAB6IclOYq7nfH-5L6GNfeH17d4",
     role: "Web Development Intern",
     company: "Datachannel",
     date: "June 2024",
     desc: "Engineered and optimized frontend of cutting-edge ETL product utilizing Next.js 14, TypeScript, and Tailwind. \n Implemented high-fidelity user interfaces based on Figma mockups, ensuring a seamless user experience.\nDeveloped and optimized API calls for robust integration of frontend functions with backend operations.",
     skills: ["Next.js", "Typescript", "Tailwind", "Shadcn", "Linux", "Figma"],
-    doc: "",
+    doc: "https://drive.google.com/file/d/1lleuv2cgkpT0gmTcdyw2nH_q3bu23bpa/view?usp=sharing",
+    docImg: DatachannelCertificate,
   },
   {
-    id: 1,
+    id: 2,
     img: Contriver,
     role: "Web Developer",
     company: "Contriver Autonomous Systems Private Limited",
@@ -198,9 +226,10 @@ export const experiences = [
     desc: "Built and deployed website for the start-up from scratch in 2 weeks. \n Utilised NextJs 14, ReactJs, HTML, and JavaScript to code and styled using Tailwind CSS and Shadcn",
     skills: ["Next.js", "Javascript", "HTML", "Tailwind", "Shadcn"],
     doc: "",
+    docImg: "",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://play-lh.googleusercontent.com/sfLqVeky-wikZqOIScnfUnl4yI5S_Bs478tmpib4TFI0I-SC4x8MlvROJI946ps9Eg",
     role: "Subject Matter Expert",
     company: "Unacademy",
@@ -208,6 +237,7 @@ export const experiences = [
     desc: "Worked as a Doubt solving educator for IIT-JEE Chemistry for 8 Months. \n Recorded video solutions of 1800+ doubts for students.",
     skills: ["Teaching", "Chemistry", "JEE / NEET"],
     doc: "",
+    docImg: "",
   },
 ];
 
@@ -217,8 +247,8 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/DTU%2C_Delhi_official_logo.png/200px-DTU%2C_Delhi_official_logo.png",
     school: "Delhi Technological Univeristy , Delhi",
     date: "Dec 2021 - June 2025",
-    grade: "8.30 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Engineering at Delhi Technological Univeristy , Delhi. I have completed 4 semesters and have a CGPA of 8.30. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems etc.",
+    grade: "8.39 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Engineering at Delhi Technological Univeristy , Delhi. I have completed 7 semesters and have a CGPA of 8.39. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems etc.",
     degree: "Bachelor of Technology - BTech, Computer Engineering",
   },
   {
@@ -228,7 +258,7 @@ export const education = [
     date: "Apr 2019 - March 2021 ",
     grade: "96.6% in CBSE Class XII",
     desc: "I completed my class 12th school education at Mayur Public School , Delhi , where I studied PCM with Computer Science.",
-    degree: "CBSE(XII) - Science with Computer Science",
+    degree: "CBSE(XII) - PCM with Computer Science",
   },
   {
     id: 2,
